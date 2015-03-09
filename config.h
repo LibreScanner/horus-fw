@@ -43,6 +43,7 @@
 
 // Default cpu mappings. Grbl officially supports the Arduino Uno only. Other processor types
 // may exist from user-supplied templates or directly user-defined in cpu_map.h
+// To compile for Arduino Mega 2560 change CPU_MAP_ATMEGA2560_HORUS
 #define CPU_MAP_ATMEGA328P_HORUS // Arduino Uno CPU for Horus Project
 
 // Define runtime command special characters. These characters are 'picked-off' directly from the
