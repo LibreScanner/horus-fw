@@ -1,5 +1,11 @@
 # Horus 3D Scanner Firmware
 
+Modified from the original firmware by Gyrobot to work with the Arduino UNO and CNC V3 Shield.
+
+* Motor is driven by "X" Pololu driver.
+* 12V power supply <1A to CNC V3 shield required for motor.
+* Lasers are fired by "Z.STEP and Z DIR" pins.
+
 This firmware is written in C.
 
 Derived from Grbl v0.9 by Jesús Arroyo (Mundo Reader S.L.)
