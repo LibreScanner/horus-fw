@@ -31,6 +31,7 @@
 #                is connected.
 # FUSES ........ Parameters for avrdude to flash the fuses appropriately.
 
+#To compile for Arduino Mega 2560 R3 change atmega328p for atmega2560
 DEVICE     ?= atmega328p
 CLOCK      = 16000000
 PROGRAMMER ?= -c avrisp2 -P usb
